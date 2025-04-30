@@ -30,7 +30,7 @@ function BookList({ books, handleBookmark, bookmarkedBooks }) {
               <button
                 onClick={() => handleBookmark(book)}
                 style={{
-                  background: isBookmarked ? 'red' : 'gray',
+                  background: isBookmarked ? 'black' : 'gray',
                   color: 'white',
                   padding: '5px 10px',
                   border: 'none',
